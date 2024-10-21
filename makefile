@@ -1,8 +1,6 @@
 default:
-	g++ main.cpp HashTable.cpp -o main.out
-	./main.out
+	g++ HashTable.cpp -o main.out
 
 clean:
 	rm *.out
-
 
