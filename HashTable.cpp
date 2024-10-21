@@ -99,9 +99,9 @@ private:
     }
 
 public:
-    HashTable(int initial_capacity = 7)
+    HashTable(int initialSize = 7)
         : loadFactorThreshold(0.8) {
-        capacity = next_prime(initial_capacity);  
+        capacity = next_prime(initialSize);  
         size = 0;
         table = new HashNode*[capacity];
 
