@@ -188,30 +188,6 @@ public:
     }
 };
 
-int main() {
-    HashTable ht(5);
-
-    ht.printTable();  
-
-    ht.insert(1);
-    ht.printTable();
-
-    ht.insert(4);
-    ht.printTable();
-
-    ht.remove(5);  
-
-    ht.insert(4);  
-
-    ht.insert(2);
-    ht.insert(9);
-    ht.printTable();
-
-    ht.insert(3);
-    ht.printTable();
-
-    return 0;
-}
 
 
 
